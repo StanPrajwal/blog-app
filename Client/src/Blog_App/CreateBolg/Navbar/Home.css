@@ -1,0 +1,16 @@
+.blogs-container{
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:2rem
+}
+.blogs-container .blog{
+    padding: 1rem;
+    width: 40vw;
+    box-shadow: 4px 3px 5px 4px rgba(0, 0, 0, 0.5);
+}
+.blog h3{
+    color:rgb(78, 78, 214);
+}

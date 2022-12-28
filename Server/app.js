@@ -1,0 +1,17 @@
+const express = require('express')
+const mongoose = require("mongoose")
+const cors = require("cors")
+const bodyParser = require("body-parser")
+const userRouter = require("./router/user")
+const blogRouter = require("./router/blog")
+const app = express()
+app.use(bodyParser.json())
+app.use(cors())
+app.use("/api/user",userRouter)
+app.use("/api/blogs",blogRouter)
+
+
+mongoose.connect("mongodb://localhost/Blog")
+    .then((res)=>console.log('database connected'))
+    .catch((err)=>console.log(err.message))
+app.listen(4000,()=>console.log("Server Started"))

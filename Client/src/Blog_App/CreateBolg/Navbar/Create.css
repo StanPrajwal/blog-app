@@ -1,0 +1,21 @@
+.blog-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.create-blog{
+    min-width: 500px;
+}
+.create-blog div{
+    margin: 1rem 0;
+
+}
+.create-blog input,textarea{
+    width: 100%;
+    padding:0.5rem;
+    box-sizing: border-box;
+}
+.save-post{
+   background-color:rgb(79, 79, 214) ;
+}

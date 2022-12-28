@@ -1,0 +1,67 @@
+.form-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+    background-color: rgb(42, 75, 165);
+}
+.form-container form{
+    padding: 2rem;
+    background-color: rgb(190, 200, 228);
+    box-shadow: 4px 4px 5px 5px rgba(0, 0, 0, 0.6);
+}
+
+.form-container form #register-message{
+    display: block;
+    text-align: center;
+    padding: 0.5rem 0;
+    background-color: rgb(49, 153, 49);
+    color: white;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+}
+
+.form-container form .box{
+    margin-bottom: 1rem;
+}
+.form-container form input{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 0.5rem;
+    outline: none;
+    margin-top:0.5rem;
+}
+.form-container form .error{
+    color: red;
+    font-weight: 800;
+    margin: 0;
+}
+button{
+    width: 100%;
+    background-color: rgb(41, 165, 41);
+    color: white;
+    padding: 0.5rem;
+    cursor: pointer;
+    border:none;
+    font-size:large;
+    font-weight: 700;
+}
+.forget-password{
+    display: block;
+    text-align: right;
+    margin-top: 0.5rem;
+    color: blue;
+    cursor: pointer;
+}
+.singup-page{
+    text-align:center
+}
+.singup-page .singUp{
+    color:blue;
+    text-decoration: underline;
+    
+}
+.singup-page .singUp:hover{
+    cursor: pointer;
+}
